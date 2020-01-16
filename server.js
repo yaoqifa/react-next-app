@@ -1,7 +1,7 @@
 const Koa = require('koa')
 // const Router = require('koa-router')
 
-const server = new Koa()
+// const server = new Koa()
 // const router = new Router()
 
 // router.get('/test/:id/:name', (ctx) => {
