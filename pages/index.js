@@ -1,4 +1,10 @@
 import { Button } from 'antd' // 按需加载
 import '../test.css'
+import Hooks from './test/hooks'
 
-export default () => <Button className="test">Index</Button>
+export default () => (
+  <>
+    <span>count: </span>
+    <Hooks />
+  </>
+)
